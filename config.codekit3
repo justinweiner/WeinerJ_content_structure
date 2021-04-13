@@ -21,19 +21,6 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/AF1Carhartt.jpeg" : {
-      "ft" : 16384,
-      "iS" : 367304,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/AF1Carhartt.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/img\/AF1easter.jpg" : {
       "ft" : 16384,
       "iS" : 29624,
@@ -79,6 +66,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/Converse.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/HeroAF1.jpg" : {
+      "ft" : 16384,
+      "iS" : 247836,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/HeroAF1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
