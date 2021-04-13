@@ -73,6 +73,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/facebook-square-icon.png" : {
+      "ft" : 32768,
+      "iS" : 602,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/facebook-square-icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/HeroAF1.jpg" : {
       "ft" : 16384,
       "iS" : 247836,
@@ -82,6 +95,45 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/instagram-square-icon.png" : {
+      "ft" : 32768,
+      "iS" : 1062,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/instagram-square-icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/location-icon.png" : {
+      "ft" : 32768,
+      "iS" : 829,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/location-icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/mobile-icon.png" : {
+      "ft" : 32768,
+      "iS" : 420,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/mobile-icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -148,6 +200,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/twitter-square-icon.png" : {
+      "ft" : 32768,
+      "iS" : 774,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/twitter-square-icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/yeezy.jpg" : {
       "ft" : 16384,
       "iS" : 30580,
@@ -157,6 +222,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/youtube-square-icon.png" : {
+      "ft" : 32768,
+      "iS" : 739,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/youtube-square-icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
