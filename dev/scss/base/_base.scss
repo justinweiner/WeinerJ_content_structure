@@ -15,8 +15,6 @@ ul {
     }
 }
 
-.hero{}
-
 .content {
     display: grid;
     grid-template-areas: "header"
@@ -28,7 +26,31 @@ ul {
     "footer";
 
     .header {
-        grid-area: header  ;
+        grid-area: header;
+    }
+
+    .search {
+        grid-area: search;
+    }
+
+    .hero {
+        grid-area: hero;
+    }
+
+    .shoplinks {
+        grid-area: shoplinks;
+    }
+
+    .subhero {
+        grid-area: subhero;
+    }
+
+    .articles {
+        grid-area: articles;
+    }
+
+    .footer {
+        grid-area: footer;
     }
 
     margin-bottom: 24px;
