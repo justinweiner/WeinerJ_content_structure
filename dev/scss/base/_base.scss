@@ -15,7 +15,22 @@ ul {
     }
 }
 
+.hero{}
+
 .content {
+    display: grid;
+    grid-template-areas: "header"
+    "search"
+    "hero"
+    "shoplinks"
+    "subhero"
+    "articles"
+    "footer";
+
+    .header {
+        grid-area: header  ;
+    }
+
     margin-bottom: 24px;
 
     @include md {
