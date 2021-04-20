@@ -51,12 +51,20 @@ ul {
 
     .footer {
         grid-area: footer;
+        grid-template-columns: 200px 200px;
     }
 
     margin-bottom: 24px;
 
     @include md {
         margin-bottom: 32px;
+        .subhero {
+            display: grid;
+        }
+    }
+
+    @include lg {
+        margin-bottom: 64px;
     }
 
     @include xl {
