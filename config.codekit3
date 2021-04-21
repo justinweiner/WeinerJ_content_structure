@@ -274,6 +274,22 @@
       "oAP" : "\/dev\/content\/_articles.html",
       "oF" : 0
     },
+    "\/dev\/content\/_footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_footer.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/_header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_header.html",
+      "oF" : 0
+    },
     "\/dev\/content\/_hero.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -304,22 +320,6 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/_subhero.html",
-      "oF" : 0
-    },
-    "\/dev\/global\/_footer.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/global\/_footer.html",
-      "oF" : 0
-    },
-    "\/dev\/global\/_header.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/global\/_header.html",
       "oF" : 0
     },
     "\/dev\/global\/head.kit" : {

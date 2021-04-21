@@ -17,7 +17,8 @@ ul {
 
 .content {
     display: grid;
-    grid-template-areas: "header"
+    grid-template-areas: 
+    "header"
     "search"
     "hero"
     "shoplinks"
@@ -34,11 +35,28 @@ ul {
     }
 
     .hero {
+        max-width: 100%;
         grid-area: hero;
+        ul {
+            display: grid;
+        }
+        a {
+            display: grid;
+            grid-template-columns: 50% auto 20%;
+        }
     }
 
     .shoplinks {
         grid-area: shoplinks;
+
+        ul {
+            display: grid;
+        }
+
+        .plan {
+            display: grid;
+            grid-template-columns: 400px auto;
+        }
     }
 
     .subhero {
@@ -51,23 +69,9 @@ ul {
 
     .footer {
         grid-area: footer;
-        grid-template-columns: 200px 200px;
-    }
 
-    margin-bottom: 24px;
-
-    @include md {
-        margin-bottom: 32px;
-        .subhero {
-            display: grid;
+        .socials ul{
+            display: flex;
         }
-    }
-
-    @include lg {
-        margin-bottom: 64px;
-    }
-
-    @include xl {
-        margin-bottom: 64px;
     }
 }
