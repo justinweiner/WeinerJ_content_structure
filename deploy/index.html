@@ -22,13 +22,15 @@
         </header>
         
         <section class="search">
-                    <input type="text" placeholder="Search">
-                   <button><i>search</i></button>
+                	<form action="POST">
+                		<input type="text" placeholder="Search" />
+                		<button>search</button>
+                	</form>
                 </section>
         <section class="hero">
                             <img src="img/HeroAF1.jpg" alt="Heroimage">
                             <ul>
-                                <li>
+                                <li class="Air Force Carhartt">
                                     <a href="#">
                                         <div>
                                             <h2>Nike Air Force 1</h2>
@@ -40,7 +42,7 @@
                                         </div>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="details location">
                                     <a href="#">
                                         <div>
                                             <p><span>Price:</span> $160</p>
@@ -79,40 +81,73 @@
                                 </ul>
                                 </section>
         <section class="subhero">
-                                            <img src="img/subheroclothing.png" alt="chicagodunks">
-                                        <aside>
-                                            <img src="img/aside-heroclothing.jpg" alt="ultraboost pose">
-                                        </aside>
-                                        </section>
+                                            <ul>
+                                                <li class="image-Dunks">
+                                                    <img src="img/subheroclothing.png" alt="chicagodunks">
+                                                </li>
+                                                <li class="ultraboost">
+                                                    <img src="img/aside-heroclothing.jpg" alt="ultraboost pose">
+                                                </li>
+                                            </ul>
         <section class="articles">
-                                                    <article>
-                                                        <img src="img/AJ1.jpeg" alt="Jordan 1">
-                                                        <h2>Air Jordan 1 "Yellow Ochre"</h2>
-                                                        <p>A new colorway for the classic Jordan sneaker. Available in all sizes.</p>
-                                                        <a href="#">Shop Now</a>
-                                                    </article>
-                                                    <article> 
-                                                        <img src="img/newbalance.jpeg" alt="NB327">
-                                                        <h2>New Balance 327</h2>
-                                                        <p>Cool. Clean. Classic. New Balance comes back with a new silohuette with a classic feel. Various colorways available.</p>
-                                                        <a href="#">Shop Now</a>
-                                                    </article>
-                                                    <article>
-                                                        <img src="img/AF1easter.jpg" alt="easter">
-                                                        <h2>Air Force 1 Shadow "Easter" </h2>
-                                                        <p>The Nike Air Force 1 Shadow returns in a colorful look for the holiday. The sneaker only runs in women's sizes 5-12.</p>
-                                                        <a href="#">Shop Now</a>
-                                                    </article>
-                                                    <article> <img src="img/yeezy.jpg" alt="yeezy">
-                                                        <h2>Adidas Yeezy 350 V2 "Sage" </h2>
-                                                        <p>Kanye West releases another Yeezy 350 V2, this time in a colorway that is resembles the Yeezy's first shoe with Nike.</p>
-                                                        <a href="#">Shop Now</a>
-                                                    </article>
-                                                    <article> <img src="img/Converse.jpeg" alt="converse">
-                                                        <h2>The Classic: Converse Chuck Taylor All Star </h2>
-                                                        <p>We have the classic Converse Chuck Taylor All Stars in all colors and sizes! Click below to shop.</p>
-                                                        <a href="#">Shop Now</a>
-                                                    </article>
+                                                    <h1>New Releases</h1>
+                                                
+                                                	<ul>
+                                                		<li id="article-1">
+                                                			<img src="img/AJ1.jpeg" alt="Jordan 1">
+                                                			<section>
+                                                				<h1>Air Jordan 1 Yellow Ochre</h1>
+                                                				<p>
+                                                					A new colorway for the classic Jordan sneaker. Available in all sizes.
+                                                				</p>
+                                                				<button>Shop Now</button>
+                                                			</section>
+                                                		</li>
+                                                
+                                                		<li id="article-2">
+                                                            <img src="img/newbalance.jpeg" alt="NB327">
+                                                			<section>
+                                                				<h1>New Balance 327</h1>
+                                                				<p>
+                                                					Cool. Clean. Classic. New Balance comes back with a new silohuette with a classic feel. Various colorways available.
+                                                				</p>
+                                                				<button>Shop Now</button>
+                                                			</section>
+                                                		</li>
+                                                
+                                                		<li id="article-3">
+                                                			<img src="img/AF1easter.jpg" alt="easter">
+                                                			<section>
+                                                				<h1>Nike Air Force 1 "Easter"</h1>
+                                                				<p>
+                                                					The Nike Air Force 1 Shadow returns in a colorful look for the holiday. The sneaker only runs in women's sizes 5-12.
+                                                				</p>
+                                                				<button>Shop Now</button>
+                                                			</section>
+                                                		</li>
+                                                
+                                                		<li id="article-4">
+                                                			<article> <img src="img/yeezy.jpg" alt="yeezy">
+                                                			<section>
+                                                				<h1>Adidas Yeezy 350 V2 "Sage"</h1>
+                                                				<p>
+                                                					Kanye West releases another Yeezy 350 V2, this time in a colorway that is resembles the Yeezy's first shoe with Nike.
+                                                				</p>
+                                                				<button>Shop Now</button>
+                                                			</section>
+                                                		</li>
+                                                
+                                                		<li id="article-5">
+                                                			<img src="img/Converse.jpeg" alt="converse">
+                                                			<section>
+                                                				<h1>The Classic: Converse Chuck Taylor All Star </h1>
+                                                				<p>
+                                                					We have the classic Converse Chuck Taylor All Stars in all colors and sizes! Click below to shop.
+                                                				</p>
+                                                				<button>Shop Now</button>
+                                                			</section>
+                                                		</li>
+                                                	</ul>
                                                 </section>
         <footer class="footer">
                                                             <section class="locations">
@@ -199,7 +234,7 @@
                                                             </ul></section>
                                                         </footer>
     </main>
-     <!-- jQuery -->
+    s <!-- jQuery -->
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     
      <!-- Greensock -->
