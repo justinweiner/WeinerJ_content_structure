@@ -15,7 +15,7 @@ ul {
     }
 }
 
-.content {
+main {
     display: grid;
     grid-template-areas: 
     "header"
@@ -25,6 +25,7 @@ ul {
     "subhero"
     "articles"
     "footer";
+}
 
     .header {
         grid-area: header;
@@ -35,14 +36,31 @@ ul {
     }
 
     .hero {
-        max-width: 100%;
         grid-area: hero;
+    
+        img {
+            width: 100%;
+        }
+    
         ul {
             display: grid;
         }
+    
         a {
             display: grid;
-            grid-template-columns: 50% auto 20%;
+        }
+    
+        @include md {
+            ul {
+                grid-template-columns: repeat(12, 1fr);
+    
+                .truck {
+                    grid-column: span 5;
+                }
+                .location {
+                    grid-column: span 7;
+                }
+            }
         }
     }
 
@@ -57,14 +75,52 @@ ul {
             display: grid;
             grid-template-columns: 400px auto;
         }
+        @include md {
+            ul {
+                grid-template-columns: repeat(12, 1fr);
+                grid-gap: 20px;
+            }
+        }
     }
 
     .subhero {
         grid-area: subhero;
+        ul {
+            display: grid;
+        }
+    
+        @include md {
+            ul {
+                grid-template-columns: repeat(12, 1fr);
+                grid-template-rows: repeat(6, 1fr);
+            }
+            img {
+                width: 100%;
+            }
+            .truck-1 {
+                grid-column: span 8;
+                grid-row: span 6;
+            }
+            .truck-2 {
+                grid-column: span 4;
+                grid-row: span 6;
+            }
+        }
     }
 
     .articles {
         grid-area: articles;
+        ul {
+            display: grid;
+        }
+    
+        @include md {
+            ul {
+                grid-template-columns: 350px 350px;
+                grid-gap: 30px;
+                justify-content: center;
+            }
+        }
     }
 
     .footer {
@@ -73,5 +129,31 @@ ul {
         .socials ul{
             display: flex;
         }
+        .locations {
+            section ul li {
+                display: grid;
+                grid-template-columns: 20px 200px;
+            }
+        }
+    
+        @include md {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(6, 1fr);
+            grid-gap: 50px;
+    
+            .locations {
+                grid-column: 2 / 5;
+                grid-row: 1 / 4;
+            }
+    
+            .newsletter {
+                grid-column: 5 / 6;
+                grid-row: 1 / 2;
+            }
+    
+            .socials {
+                grid-column: 5 / 6;
+            }
+        }
     }
-}
