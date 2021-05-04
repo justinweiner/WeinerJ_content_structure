@@ -1,0 +1,59 @@
+.new {
+	@include md {
+		width: 75%;
+		margin: 30px auto;
+	}
+
+	li {
+		background: $offWhite;
+
+		.new-content {
+			padding: 0 30px 30px;
+		}
+
+		button {
+			background: $tangerine;
+			border: none;
+			padding: 5px 10px;
+		}
+	}
+}
+
+.new-image {
+	height: 180px;
+}
+
+#new-gallery-1 {
+	.new-image {
+		background: url("/deploy/img/new/gallery-1.jpg") no-repeat;
+		background-size: cover;
+	}
+}
+
+#new-gallery-2 {
+	.new-image {
+		background: url("/deploy/img/new/gallery-2.jpg") no-repeat;
+		background-size: cover;
+	}
+}
+
+#new-gallery-3 {
+	.new-image {
+		background: url("/deploy/img/new/gallery-3.jpg") no-repeat;
+		background-size: cover;
+	}
+}
+
+#new-gallery-4 {
+	.new-image {
+		background: url("/deploy/img/new/gallery-4.jpg") no-repeat;
+		background-size: cover;
+	}
+}
+
+#new-gallery-5 {
+	.new-image {
+		background: url("/deploy/img/new/gallery-5.jpg") no-repeat;
+		background-size: cover;
+	}
+}
